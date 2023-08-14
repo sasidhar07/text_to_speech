@@ -1,0 +1,113 @@
+.heading{
+    color: rgb(68, 66, 66);
+    margin: 0;
+    font-size: 120px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom:30px ;
+
+}
+.heading2{
+    color: rgb(68, 66, 66);
+    margin: 0;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.container{
+    margin: 0;
+}
+.introCard{
+    background-color: rgb(216, 216, 61);
+    margin: 0;
+    padding-right: 10%;
+
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    height: 100vh;
+}
+body{
+    margin: 0;
+}
+.paragraph{
+    color: rgb(68, 66, 66);
+    margin: 0;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.TextCard{
+    height: 100vh;
+    background-color: rgb(68, 66, 66);
+    color:  rgb(216, 216, 61);
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 10%;
+
+    padding-left: 10%;
+}
+#textInput{
+    width: 80%;
+    border-radius: 5px;
+    height: 30%;
+    font-size: 17px;
+    outline: none;
+    border: 0;
+    
+    overflow: auto;
+    padding: 7px;
+}
+#ListenButton{
+    width: 80px;
+    padding: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 0;
+    background-color: rgb(216, 216, 61);
+    margin-top: 20px;
+}
+#StopButton{
+    width: 80px;
+    padding: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 0;
+    background-color: rgb(216, 216, 61);
+    margin-top: 20px;
+
+
+}
+.heading3{
+    color: rgb(216, 216, 61);
+    align-self:flex-start;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.heading4{
+    color: rgb(216, 216, 61);
+    align-self:flex-start;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#voiceSelect{
+    width: 150px;
+    padding: 7px;
+    font-weight: bold;
+    outline: none;
+
+}
+option{
+    font-weight: bold;
+    padding: 5px;
+}

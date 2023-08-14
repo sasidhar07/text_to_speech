@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text-to-Speech Web App</title>
+  <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1106.0.min.js"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+      <div class="introCard">
+        <h1 class="heading">SOS 42 </h1>
+        <h2 class="heading2">Introducing the Future of Speech Conversion.</h2>
+        <p class="paragraph">SOS 42 Text To Speech Converter is here to change the way you experience text-to-speech technology!</p>
+      </div>
+      <div class="TextCard">
+        <h2 class="heading3">Listen to Your Text Come Alive!</h2>
+
+        <textarea  id="textInput" rows="4" cols="50"></textarea><br>
+        <div>
+          <button  id="ListenButton">Listen</button>
+          <button  id="StopButton">Stop</button><br>
+
+        </div>
+        <h2 class="heading4">Select Voice</h2>
+
+        <select id="voiceSelect">
+          <option value="Salli">Salli, Female</option>
+          <option value="Kimberly">Kimberly, Female</option>
+          <option value="Kendra">Kendra, Female</option>
+          <option value="Joanna">Joanna, Female</option>
+          <option value="Ivy">Ivy, Female</option>
+          <option value="Matthew">Matthew, Male</option>
+          <option value="Justin">Justin, Male</option>
+          <option value="Joey">Joey, Male</option>
+        </select>
+      </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
