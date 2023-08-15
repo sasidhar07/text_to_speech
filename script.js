@@ -6,8 +6,8 @@ let  voiceSelect =document.getElementById("voiceSelect")
 var audio = new Audio();
 
 AWS.config.update({
-    accessKeyId: 'AKIA53A4ZDWKXSPYNKUL',
-    secretAccessKey: '2Y2Py4jJD5xE8OO1ie0bAAacDWWIEmOAg2wiXz3z',
+    accessKeyId: 'enter your access key',
+    secretAccessKey: 'enter your secretAccessKey',
     region: 'ap-south-1'  
   });
   
